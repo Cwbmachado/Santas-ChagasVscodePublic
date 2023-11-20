@@ -56,8 +56,8 @@ border-bottom: 3px solid #efefef;
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
-    margin-left: 15px;
-    height: 50px;
+    margin-left: 10px;
+    height: 30px;
 }
 
 .menu ul li:hover {
@@ -72,7 +72,7 @@ border-bottom: 3px solid #efefef;
 .menu ul li a {
     color: #520808;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     text-transform: uppercase;
 }
 .menu {
@@ -195,6 +195,9 @@ li.slick-active button {
 }
 .bloco-imagem b, p {
     text-align: left;
+    text-decoration:none;
+    color:#520808;
+    font-size: 18px;
 }
 .bloco-texto {
     margin-top: 3em;
@@ -225,18 +228,19 @@ h3 {
     background: #eeeeee;
 } 
 .col-4 {
-    float: left;
-    width: 20%;
+    float: center;
+    width: 90%;
     text-align: center;
 }
 .col-4 img {
 cursor: pointer;
  margin: 0 auto;
- padding-top: 1px;
+ padding-top: 0px;
+ padding-bottom: 50px;
  vertical-align: middle;
 }
 .col-4 img:hover {
-    margin-top: 10px!important;
+    margin-top: 0px!important;
     position: relative!important;
 }
 
@@ -250,6 +254,7 @@ cursor: pointer;
 
 .footer h3 {
     text-align: left;
+
 }
 
 .footer {
